@@ -9,6 +9,15 @@ This file defines the labels used throughout the ancillary result archive.
 - Organize result files by dataset, physics scenario, angular treatment, and systematic benchmark.
 - Keep numerical data in `results/`; keep descriptive metadata in `metadata/`.
 
+## Operator names
+
+- Future LFU result files should use `profiler_name` as the canonical machine key.
+- The operator-name chain is `profiler_name -> analysis_label -> plot_label_tex`.
+- `profiler_name` is the exact name used by the profiling code and operator directories, for example `C_Q1_L_P`.
+- `analysis_label` is the intermediate label stored in profiler summaries, for example `ClqP[ll,ll,1,1]`.
+- `plot_label_tex` is the paper-facing plotting label, for example `C_{lq}^{(+)[\ell\ell 11]}`.
+- The full LFU lookup table is stored in `metadata/operator-map.yaml`.
+
 ## Units
 
 - Wilson coefficients are expressed in `TeV^-2`.

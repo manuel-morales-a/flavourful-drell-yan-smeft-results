@@ -61,3 +61,4 @@ coefficient_families:
 notes:
   - "Numerical bounds are intentionally not included in this metadata file."
   - "The top-quark initial state is not included in the high-mass dilepton result categories."
+  - "Per-operator LFU profiler-name mappings are stored in metadata/operator-map.yaml."
