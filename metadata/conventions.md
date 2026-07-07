@@ -13,6 +13,9 @@ This file defines the labels used throughout the ancillary result archive.
 
 - Future LFU result files should use `computer_name` as the machine-readable operator key.
 - The operator-name chain is `computer_name -> analysis_label -> latex`.
+- In LFU computer names, `p` and `m` denote the `C_lq^+` and `C_lq^-` combinations.
+- The `ll` token denotes lepton-flavour-universal lepton indices.
+- For `C_qe`, the quark indices come first, for example `C_qe_11ll`.
 - Use `metadata/operator-map.md` for a readable table of computer names and rendered LaTeX labels.
 - Use `metadata/operator-map.yaml` for the machine-readable version of the same mapping.
 

@@ -6,59 +6,59 @@ description: >
   outputs, and latex gives the paper-facing label.
 
 operators:
-  - computer_name: "C_Q1_L_P"
+  - computer_name: "C_lq_p_ll11"
     analysis_label: "ClqP[ll,ll,1,1]"
     latex: 'C_{lq}^{+[\ell\ell 11]}'
-  - computer_name: "C_Q1_L_M"
+  - computer_name: "C_lq_m_ll11"
     analysis_label: "ClqM[ll,ll,1,1]"
     latex: 'C_{lq}^{-[\ell\ell 11]}'
-  - computer_name: "C_uR_L"
+  - computer_name: "C_lu_ll11"
     analysis_label: "Clu[ll,ll,1,1]"
     latex: 'C_{lu}^{[\ell\ell 11]}'
-  - computer_name: "C_uR_eR"
+  - computer_name: "C_eu_ll11"
     analysis_label: "Ceu[ll,ll,1,1]"
     latex: 'C_{eu}^{[\ell\ell 11]}'
-  - computer_name: "C_Q1_eR"
+  - computer_name: "C_qe_11ll"
     analysis_label: "Cqe[1,1,ll,ll]"
     latex: 'C_{qe}^{[11\ell\ell]}'
-  - computer_name: "C_dR_L"
+  - computer_name: "C_ld_ll11"
     analysis_label: "Cld[ll,ll,1,1]"
     latex: 'C_{ld}^{[\ell\ell 11]}'
-  - computer_name: "C_dR_eR"
+  - computer_name: "C_ed_ll11"
     analysis_label: "Ced[ll,ll,1,1]"
     latex: 'C_{ed}^{[\ell\ell 11]}'
 
-  - computer_name: "C_Q2_L_P"
+  - computer_name: "C_lq_p_ll22"
     analysis_label: "ClqP[ll,ll,2,2]"
     latex: 'C_{lq}^{+[\ell\ell 22]}'
-  - computer_name: "C_Q2_L_M"
+  - computer_name: "C_lq_m_ll22"
     analysis_label: "ClqM[ll,ll,2,2]"
     latex: 'C_{lq}^{-[\ell\ell 22]}'
-  - computer_name: "C_cR_L"
+  - computer_name: "C_lu_ll22"
     analysis_label: "Clu[ll,ll,2,2]"
     latex: 'C_{lu}^{[\ell\ell 22]}'
-  - computer_name: "C_cR_eR"
+  - computer_name: "C_eu_ll22"
     analysis_label: "Ceu[ll,ll,2,2]"
     latex: 'C_{eu}^{[\ell\ell 22]}'
-  - computer_name: "C_Q2_eR"
+  - computer_name: "C_qe_22ll"
     analysis_label: "Cqe[2,2,ll,ll]"
     latex: 'C_{qe}^{[22\ell\ell]}'
-  - computer_name: "C_sR_L"
+  - computer_name: "C_ld_ll22"
     analysis_label: "Cld[ll,ll,2,2]"
     latex: 'C_{ld}^{[\ell\ell 22]}'
-  - computer_name: "C_sR_eR"
+  - computer_name: "C_ed_ll22"
     analysis_label: "Ced[ll,ll,2,2]"
     latex: 'C_{ed}^{[\ell\ell 22]}'
 
-  - computer_name: "C_bL_L"
+  - computer_name: "C_lq_p_ll33"
     analysis_label: "ClqP[ll,ll,3,3]"
     latex: 'C_{lq}^{+[\ell\ell 33]}'
-  - computer_name: "C_bL_eR"
+  - computer_name: "C_qe_33ll"
     analysis_label: "Cqe[3,3,ll,ll]"
     latex: 'C_{qe}^{[33\ell\ell]}'
-  - computer_name: "C_bR_L"
+  - computer_name: "C_ld_ll33"
     analysis_label: "Cld[ll,ll,3,3]"
     latex: 'C_{ld}^{[\ell\ell 33]}'
-  - computer_name: "C_bR_eR"
+  - computer_name: "C_ed_ll33"
     analysis_label: "Ced[ll,ll,3,3]"
     latex: 'C_{ed}^{[\ell\ell 33]}'
