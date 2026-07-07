@@ -23,13 +23,13 @@ flavour_indices:
 
 coefficient_families:
   - family: "C_lq_plus"
-    latex_template_lfu: "C_{lq}^{(+)[\\ell\\ell ii]}"
-    latex_template_flavour_general: "C_{lq}^{(+)[kkii]}"
+    latex_template_lfu: "C_{lq}^{+[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{lq}^{+[kkii]}"
     allowed_quark_generations: [1, 2, 3]
     description: "Left-handed lepton and quark doublet combination mapped to down-type neutral-current amplitudes."
   - family: "C_lq_minus"
-    latex_template_lfu: "C_{lq}^{(-)[\\ell\\ell ii]}"
-    latex_template_flavour_general: "C_{lq}^{(-)[kkii]}"
+    latex_template_lfu: "C_{lq}^{-[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{lq}^{-[kkii]}"
     allowed_quark_generations: [1, 2]
     description: "Left-handed lepton and quark doublet combination mapped to up-type neutral-current amplitudes."
   - family: "C_lu"

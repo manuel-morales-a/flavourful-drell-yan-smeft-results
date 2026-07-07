@@ -8,10 +8,10 @@ description: >
 operators:
   - computer_name: "C_Q1_L_P"
     analysis_label: "ClqP[ll,ll,1,1]"
-    latex: 'C_{lq}^{(+)[\ell\ell 11]}'
+    latex: 'C_{lq}^{+[\ell\ell 11]}'
   - computer_name: "C_Q1_L_M"
     analysis_label: "ClqM[ll,ll,1,1]"
-    latex: 'C_{lq}^{(-)[\ell\ell 11]}'
+    latex: 'C_{lq}^{-[\ell\ell 11]}'
   - computer_name: "C_uR_L"
     analysis_label: "Clu[ll,ll,1,1]"
     latex: 'C_{lu}^{[\ell\ell 11]}'
@@ -30,10 +30,10 @@ operators:
 
   - computer_name: "C_Q2_L_P"
     analysis_label: "ClqP[ll,ll,2,2]"
-    latex: 'C_{lq}^{(+)[\ell\ell 22]}'
+    latex: 'C_{lq}^{+[\ell\ell 22]}'
   - computer_name: "C_Q2_L_M"
     analysis_label: "ClqM[ll,ll,2,2]"
-    latex: 'C_{lq}^{(-)[\ell\ell 22]}'
+    latex: 'C_{lq}^{-[\ell\ell 22]}'
   - computer_name: "C_cR_L"
     analysis_label: "Clu[ll,ll,2,2]"
     latex: 'C_{lu}^{[\ell\ell 22]}'
@@ -52,7 +52,7 @@ operators:
 
   - computer_name: "C_bL_L"
     analysis_label: "ClqP[ll,ll,3,3]"
-    latex: 'C_{lq}^{(+)[\ell\ell 33]}'
+    latex: 'C_{lq}^{+[\ell\ell 33]}'
   - computer_name: "C_bL_eR"
     analysis_label: "Cqe[3,3,ll,ll]"
     latex: 'C_{qe}^{[33\ell\ell]}'
