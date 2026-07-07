@@ -1,165 +1,64 @@
 schema_version: 1
 description: >
-  Canonical LFU operator-name mapping for ancillary result files. Future
-  numerical tables should use profiler_name as the machine key, analysis_label
-  as the intermediate label inherited from the profiler summaries, and
-  plot_label_tex for plotting or paper-facing labels.
-source:
-  profiler_directory: "/Users/manuelmorales/flavourful_DY_PDF_SMEFT_agent/profiler_tests/lfu_hllhc_14tev_all_updated"
-  summary_file: "grid_broadening_summary.csv"
-name_chain:
-  - "profiler_name"
-  - "analysis_label"
-  - "plot_label_tex"
-units:
-  wilson_coefficients: "TeV^-2"
-lepton_structure:
-  lfu: "lepton-flavour universal"
+  LFU operator-name mapping for ancillary result files. Future numerical
+  tables should use computer_name as the machine-readable key. The
+  analysis_label field records the intermediate label used in the calculation
+  outputs, and latex gives the paper-facing label.
 
 operators:
-  - profiler_name: "C_Q1_L_P"
+  - computer_name: "C_Q1_L_P"
     analysis_label: "ClqP[ll,ll,1,1]"
-    plot_label_tex: 'C_{lq}^{(+)[\ell\ell 11]}'
-    coefficient_family: "C_lq_plus"
-    quark_generation: 1
-    quark_flavour: "Q1"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_Q1_L_M"
+    latex: 'C_{lq}^{(+)[\ell\ell 11]}'
+  - computer_name: "C_Q1_L_M"
     analysis_label: "ClqM[ll,ll,1,1]"
-    plot_label_tex: 'C_{lq}^{(-)[\ell\ell 11]}'
-    coefficient_family: "C_lq_minus"
-    quark_generation: 1
-    quark_flavour: "Q1"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_uR_L"
+    latex: 'C_{lq}^{(-)[\ell\ell 11]}'
+  - computer_name: "C_uR_L"
     analysis_label: "Clu[ll,ll,1,1]"
-    plot_label_tex: 'C_{lu}^{[\ell\ell 11]}'
-    coefficient_family: "C_lu"
-    quark_generation: 1
-    quark_flavour: "uR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_uR_eR"
+    latex: 'C_{lu}^{[\ell\ell 11]}'
+  - computer_name: "C_uR_eR"
     analysis_label: "Ceu[ll,ll,1,1]"
-    plot_label_tex: 'C_{eu}^{[\ell\ell 11]}'
-    coefficient_family: "C_eu"
-    quark_generation: 1
-    quark_flavour: "uR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_Q1_eR"
+    latex: 'C_{eu}^{[\ell\ell 11]}'
+  - computer_name: "C_Q1_eR"
     analysis_label: "Cqe[1,1,ll,ll]"
-    plot_label_tex: 'C_{qe}^{[11\ell\ell]}'
-    coefficient_family: "C_qe"
-    quark_generation: 1
-    quark_flavour: "Q1"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_dR_L"
+    latex: 'C_{qe}^{[11\ell\ell]}'
+  - computer_name: "C_dR_L"
     analysis_label: "Cld[ll,ll,1,1]"
-    plot_label_tex: 'C_{ld}^{[\ell\ell 11]}'
-    coefficient_family: "C_ld"
-    quark_generation: 1
-    quark_flavour: "dR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_dR_eR"
+    latex: 'C_{ld}^{[\ell\ell 11]}'
+  - computer_name: "C_dR_eR"
     analysis_label: "Ced[ll,ll,1,1]"
-    plot_label_tex: 'C_{ed}^{[\ell\ell 11]}'
-    coefficient_family: "C_ed"
-    quark_generation: 1
-    quark_flavour: "dR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
+    latex: 'C_{ed}^{[\ell\ell 11]}'
 
-  - profiler_name: "C_Q2_L_P"
+  - computer_name: "C_Q2_L_P"
     analysis_label: "ClqP[ll,ll,2,2]"
-    plot_label_tex: 'C_{lq}^{(+)[\ell\ell 22]}'
-    coefficient_family: "C_lq_plus"
-    quark_generation: 2
-    quark_flavour: "Q2"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_Q2_L_M"
+    latex: 'C_{lq}^{(+)[\ell\ell 22]}'
+  - computer_name: "C_Q2_L_M"
     analysis_label: "ClqM[ll,ll,2,2]"
-    plot_label_tex: 'C_{lq}^{(-)[\ell\ell 22]}'
-    coefficient_family: "C_lq_minus"
-    quark_generation: 2
-    quark_flavour: "Q2"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_cR_L"
+    latex: 'C_{lq}^{(-)[\ell\ell 22]}'
+  - computer_name: "C_cR_L"
     analysis_label: "Clu[ll,ll,2,2]"
-    plot_label_tex: 'C_{lu}^{[\ell\ell 22]}'
-    coefficient_family: "C_lu"
-    quark_generation: 2
-    quark_flavour: "cR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_cR_eR"
+    latex: 'C_{lu}^{[\ell\ell 22]}'
+  - computer_name: "C_cR_eR"
     analysis_label: "Ceu[ll,ll,2,2]"
-    plot_label_tex: 'C_{eu}^{[\ell\ell 22]}'
-    coefficient_family: "C_eu"
-    quark_generation: 2
-    quark_flavour: "cR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_Q2_eR"
+    latex: 'C_{eu}^{[\ell\ell 22]}'
+  - computer_name: "C_Q2_eR"
     analysis_label: "Cqe[2,2,ll,ll]"
-    plot_label_tex: 'C_{qe}^{[22\ell\ell]}'
-    coefficient_family: "C_qe"
-    quark_generation: 2
-    quark_flavour: "Q2"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_sR_L"
+    latex: 'C_{qe}^{[22\ell\ell]}'
+  - computer_name: "C_sR_L"
     analysis_label: "Cld[ll,ll,2,2]"
-    plot_label_tex: 'C_{ld}^{[\ell\ell 22]}'
-    coefficient_family: "C_ld"
-    quark_generation: 2
-    quark_flavour: "sR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_sR_eR"
+    latex: 'C_{ld}^{[\ell\ell 22]}'
+  - computer_name: "C_sR_eR"
     analysis_label: "Ced[ll,ll,2,2]"
-    plot_label_tex: 'C_{ed}^{[\ell\ell 22]}'
-    coefficient_family: "C_ed"
-    quark_generation: 2
-    quark_flavour: "sR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
+    latex: 'C_{ed}^{[\ell\ell 22]}'
 
-  - profiler_name: "C_bL_L"
+  - computer_name: "C_bL_L"
     analysis_label: "ClqP[ll,ll,3,3]"
-    plot_label_tex: 'C_{lq}^{(+)[\ell\ell 33]}'
-    coefficient_family: "C_lq_plus"
-    quark_generation: 3
-    quark_flavour: "bL"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_bL_eR"
+    latex: 'C_{lq}^{(+)[\ell\ell 33]}'
+  - computer_name: "C_bL_eR"
     analysis_label: "Cqe[3,3,ll,ll]"
-    plot_label_tex: 'C_{qe}^{[33\ell\ell]}'
-    coefficient_family: "C_qe"
-    quark_generation: 3
-    quark_flavour: "bL"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_bR_L"
+    latex: 'C_{qe}^{[33\ell\ell]}'
+  - computer_name: "C_bR_L"
     analysis_label: "Cld[ll,ll,3,3]"
-    plot_label_tex: 'C_{ld}^{[\ell\ell 33]}'
-    coefficient_family: "C_ld"
-    quark_generation: 3
-    quark_flavour: "bR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
-  - profiler_name: "C_bR_eR"
+    latex: 'C_{ld}^{[\ell\ell 33]}'
+  - computer_name: "C_bR_eR"
     analysis_label: "Ced[ll,ll,3,3]"
-    plot_label_tex: 'C_{ed}^{[\ell\ell 33]}'
-    coefficient_family: "C_ed"
-    quark_generation: 3
-    quark_flavour: "bR"
-    lepton_structure: "lfu"
-    units: "TeV^-2"
+    latex: 'C_{ed}^{[\ell\ell 33]}'

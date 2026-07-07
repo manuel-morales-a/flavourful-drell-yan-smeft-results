@@ -30,7 +30,8 @@ metadata/
   paper.yaml          Paper metadata and citation placeholders.
   conventions.md     Naming, units, and scenario conventions.
   coefficients.yaml  Wilson-coefficient labels and flavour patterns.
-  operator-map.yaml   LFU profiler names mapped to analysis and plotting labels.
+  operator-map.md     LFU computer names and rendered LaTeX labels.
+  operator-map.yaml   Machine-readable version of the LFU operator map.
   datasets.yaml      Dataset and projection labels.
 
 results/
