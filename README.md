@@ -1,8 +1,6 @@
 # PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses
 
-This repository will host machine-readable ancillary files for:
-
-**PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses**
+This repository will host machine-readable ancillary files for the numerical results associated with this paper.
 
 Authors:
 
