@@ -1,0 +1,63 @@
+units:
+  wilson_coefficients: "TeV^-2"
+  W: "dimensionless"
+  Y: "dimensionless"
+
+universal_parameters:
+  - name: "W"
+    latex: "W"
+    description: "Universal electroweak parameter mapped to semileptonic SMEFT directions."
+  - name: "Y"
+    latex: "Y"
+    description: "Universal electroweak parameter mapped to semileptonic SMEFT directions."
+
+flavour_indices:
+  lepton_generations:
+    "1": "electron"
+    "2": "muon"
+  quark_generations:
+    "1": "first generation"
+    "2": "second generation"
+    "3": "third generation"
+  lfu_lepton_label: "ll"
+
+coefficient_families:
+  - family: "C_lq_plus"
+    latex_template_lfu: "C_{lq}^{(+)[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{lq}^{(+)[kkii]}"
+    allowed_quark_generations: [1, 2, 3]
+    description: "Left-handed lepton and quark doublet combination mapped to down-type neutral-current amplitudes."
+  - family: "C_lq_minus"
+    latex_template_lfu: "C_{lq}^{(-)[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{lq}^{(-)[kkii]}"
+    allowed_quark_generations: [1, 2]
+    description: "Left-handed lepton and quark doublet combination mapped to up-type neutral-current amplitudes."
+  - family: "C_lu"
+    latex_template_lfu: "C_{lu}^{[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{lu}^{[kkii]}"
+    allowed_quark_generations: [1, 2]
+    description: "Left-handed lepton doublet and right-handed up-type quark current."
+  - family: "C_eu"
+    latex_template_lfu: "C_{eu}^{[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{eu}^{[kkii]}"
+    allowed_quark_generations: [1, 2]
+    description: "Right-handed charged-lepton and right-handed up-type quark current."
+  - family: "C_qe"
+    latex_template_lfu: "C_{qe}^{[ii\\ell\\ell]}"
+    latex_template_flavour_general: "C_{qe}^{[iikk]}"
+    allowed_quark_generations: [1, 2, 3]
+    description: "Left-handed quark doublet and right-handed charged-lepton current."
+  - family: "C_ld"
+    latex_template_lfu: "C_{ld}^{[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{ld}^{[kkii]}"
+    allowed_quark_generations: [1, 2, 3]
+    description: "Left-handed lepton doublet and right-handed down-type quark current."
+  - family: "C_ed"
+    latex_template_lfu: "C_{ed}^{[\\ell\\ell ii]}"
+    latex_template_flavour_general: "C_{ed}^{[kkii]}"
+    allowed_quark_generations: [1, 2, 3]
+    description: "Right-handed charged-lepton and right-handed down-type quark current."
+
+notes:
+  - "Numerical bounds are intentionally not included in this metadata file."
+  - "The top-quark initial state is not included in the high-mass dilepton result categories."

@@ -1,0 +1,47 @@
+datasets:
+  - id: "cms-current"
+    label: "CMS current high-mass dilepton data"
+    experiment: "CMS"
+    collision: "pp"
+    sqrt_s_tev: 13
+    channels:
+      - "dielectron"
+      - "dimuon"
+    luminosity:
+      dielectron_fb: 137
+      dimuon_fb: 140
+    observable:
+      invariant_mass: "m_ll"
+      angular_variable: "cos(theta*)"
+      angular_frame: "Collins-Soper"
+    minimum_mll_gev: 400
+    source:
+      paper: "CMS high-mass dilepton nonresonant search"
+      reference: "TBD"
+      hepdata: "TBD"
+    notes:
+      - "Uses aggregated high-mass dilepton bins for the ancillary result categories."
+      - "Exact HEPData table links and bin definitions will be finalized with the numerical files."
+
+  - id: "hl-lhc"
+    label: "HL-LHC high-mass dilepton projection"
+    collision: "pp"
+    sqrt_s_tev: 14
+    luminosity_ab: 6
+    channels:
+      - "dielectron"
+      - "dimuon"
+    projection_type: "SM Asimov"
+    systematic_benchmarks:
+      - id: "rsyst-0p2"
+        r_syst: 0.2
+        description: "Baseline improved-systematics projection."
+      - id: "rsyst-1p0"
+        r_syst: 1.0
+        description: "Conservative projection retaining current fractional systematics."
+    angular_setups:
+      - "angular"
+      - "no-angular"
+    notes:
+      - "The projection uses the same broad mass and angular bin categories as the current CMS setup."
+      - "Numerical projection inputs will be added with the result files."

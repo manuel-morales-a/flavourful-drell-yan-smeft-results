@@ -1,0 +1,24 @@
+title: "PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses"
+short_title: "Flavourful Drell-Yan SMEFT PDF uncertainties"
+status: "preprint"
+arxiv_id: "TBD"
+doi: "TBD"
+journal_reference: "TBD"
+repository: "https://github.com/manuel-morales-a/flavourful-drell-yan-smeft-results"
+date: "2026-07-06"
+authors:
+  - name: "David Marzocca"
+    affiliation: "INFN, Sezione di Trieste, Via Bonomea 265, 34136 Trieste, Italy"
+  - name: "Manuel Morales-Alvarado"
+    affiliation: "INFN, Sezione di Trieste, Via Bonomea 265, 34136 Trieste, Italy"
+keywords:
+  - "SMEFT"
+  - "Drell-Yan"
+  - "high-mass dileptons"
+  - "parton distribution functions"
+  - "Wilson coefficients"
+  - "HL-LHC"
+summary: >
+  Ancillary repository for numerical results associated with a study of
+  high-mass Drell-Yan SMEFT constraints across quark-flavour space, including
+  current CMS Run-II data and HL-LHC projections.
