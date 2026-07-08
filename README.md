@@ -1,4 +1,4 @@
-# PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses
+# PDF effects in high-mass Drell-Yan SMEFT analyses across the flavour space
 
 This repository will host machine-readable ancillary files for the numerical results associated with this paper.
 
