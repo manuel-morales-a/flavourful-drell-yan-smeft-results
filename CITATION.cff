@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these ancillary files, please cite the associated paper."
-title: "PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses"
+title: "PDF effects in high-mass Drell-Yan SMEFT analyses across the flavour space"
 authors:
   - family-names: "Marzocca"
     given-names: "David"
@@ -12,7 +12,7 @@ repository-code: "https://github.com/manuel-morales-a/flavourful-drell-yan-smeft
 abstract: "Ancillary files for a study of parton-distribution uncertainties in high-mass Drell-Yan SMEFT constraints across quark-flavour space."
 preferred-citation:
   type: article
-  title: "PDF Uncertainties across Flavour Space in High-Energy Drell-Yan SMEFT Analyses"
+  title: "PDF effects in high-mass Drell-Yan SMEFT analyses across the flavour space"
   authors:
     - family-names: "Marzocca"
       given-names: "David"
